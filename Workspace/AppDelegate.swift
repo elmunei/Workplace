@@ -7,15 +7,39 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import Fabric
+import Crashlytics
+
+
+
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let APP_ID = "BF81DA69-3FD4-9124-FF5B-45B342193100"
+    let Secret_Key = "C00F4F76-1694-3513-FFC3-C26313F77300"
+    let Version_Num = "v1"
+    
+    let backendless = Backendless.sharedInstance()
+    
+    
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        FIRApp.configure()
+        backendless.initApp(APP_ID, secret: Secret_Key, version: Version_Num)
+        
+        FIRDatabase.database().persistenceEnabled = true
+        
+        Fabric.with([Crashlytics.self])
+
+
         return true
     }
 
