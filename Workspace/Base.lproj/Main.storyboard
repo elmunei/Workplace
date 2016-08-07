@@ -136,7 +136,7 @@
             </objects>
             <point key="canvasLocation" x="1853" y="117"/>
         </scene>
-        <!--Workspace-->
+        <!--Inhouse-->
         <scene sceneID="HcR-Pc-Uzm">
             <objects>
                 <viewController id="dgp-6v-6f3" customClass="LoginViewController" customModule="Workspace" customModuleProvider="target" sceneMemberID="viewController">
@@ -175,7 +175,7 @@
                             <constraint firstItem="Uks-fR-LmZ" firstAttribute="leading" secondItem="95K-aQ-5e2" secondAttribute="leadingMargin" id="l3q-yh-WaJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Workspace" id="JQx-gu-LUU">
+                    <navigationItem key="navigationItem" title="Inhouse" id="JQx-gu-LUU">
                         <barButtonItem key="rightBarButtonItem" title="Login" id="xrw-V0-kdU">
                             <connections>
                                 <action selector="loginBarButton:" destination="dgp-6v-6f3" id="8q4-4i-gsL"/>
@@ -323,6 +323,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="mgd-mh-tTE" id="kmt-os-f8Z"/>
+                        <segue destination="x6V-2k-S8r" kind="presentation" identifier="recentToChooseUserVC" id="jWH-3q-eMv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvL-zU-kcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
