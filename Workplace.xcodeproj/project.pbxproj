@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3480633355B64A3036DA1A87 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B357AE268BEC1456E9AD4F5 /* libPods.a */; };
+		85116B9A1D574D5F004D1BDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85116B991D574D5F004D1BDB /* GoogleService-Info.plist */; };
 		85446D411D52377A0046AAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85446D401D52377A0046AAC7 /* AppDelegate.swift */; };
 		85446D461D52377A0046AAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85446D441D52377A0046AAC7 /* Main.storyboard */; };
 		85446D481D52377A0046AAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85446D471D52377A0046AAC7 /* Assets.xcassets */; };
 		85446D4B1D52377A0046AAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85446D491D52377A0046AAC7 /* LaunchScreen.storyboard */; };
 		85446D561D52377A0046AAC7 /* WorkspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85446D551D52377A0046AAC7 /* WorkspaceTests.swift */; };
 		85446D611D52377A0046AAC7 /* WorkspaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85446D601D52377A0046AAC7 /* WorkspaceUITests.swift */; };
-		85446D6F1D5270600046AAC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85446D6E1D5270600046AAC7 /* GoogleService-Info.plist */; };
 		858C39A11D527D0C001A5835 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 858C399E1D527D0C001A5835 /* ProgressHUD.bundle */; };
 		858C39A21D527D0D001A5835 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 858C39A01D527D0C001A5835 /* ProgressHUD.m */; };
 		858C39A41D5283E8001A5835 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858C39A31D5283E8001A5835 /* WelcomeViewController.swift */; };
 		858C39A61D528655001A5835 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858C39A51D528655001A5835 /* RegisterViewController.swift */; };
 		858C39A81D5286A2001A5835 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858C39A71D5286A2001A5835 /* LoginViewController.swift */; };
+		85D73F6A1D57507200C9B904 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D73F691D57507200C9B904 /* Default-568h@2x.png */; };
 		85F60A2D1D566E2100A76052 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F60A2C1D566E2100A76052 /* RecentTableViewCell.swift */; };
 		85F60A2F1D56709E00A76052 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F60A2E1D56709E00A76052 /* RecentViewController.swift */; };
 		85F60A331D567CC900A76052 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F60A321D567CC900A76052 /* Recent.swift */; };
@@ -46,25 +47,26 @@
 /* Begin PBXFileReference section */
 		0B357AE268BEC1456E9AD4F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		64EDDF2BA497FE39F3AF77A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		85446D3D1D52377A0046AAC7 /* Workspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85116B991D574D5F004D1BDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85446D3D1D52377A0046AAC7 /* Workplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85446D401D52377A0046AAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		85446D451D52377A0046AAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85446D471D52377A0046AAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85446D4A1D52377A0046AAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85446D4C1D52377A0046AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85446D511D52377A0046AAC7 /* WorkspaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkspaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85446D511D52377A0046AAC7 /* Workplace.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Workplace.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85446D551D52377A0046AAC7 /* WorkspaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceTests.swift; sourceTree = "<group>"; };
 		85446D571D52377A0046AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85446D5C1D52377A0046AAC7 /* WorkspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkspaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85446D5C1D52377A0046AAC7 /* Workplace.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Workplace.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85446D601D52377A0046AAC7 /* WorkspaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceUITests.swift; sourceTree = "<group>"; };
 		85446D621D52377A0046AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85446D6E1D5270600046AAC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		858C399E1D527D0C001A5835 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		858C399F1D527D0C001A5835 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		858C39A01D527D0C001A5835 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		858C39A31D5283E8001A5835 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		858C39A51D528655001A5835 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		858C39A71D5286A2001A5835 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		85D73F691D57507200C9B904 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		85F60A2C1D566E2100A76052 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
 		85F60A2E1D56709E00A76052 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		85F60A321D567CC900A76052 /* Recent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
@@ -102,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				858C399D1D527D0C001A5835 /* ProgressHUD */,
-				85446D3F1D52377A0046AAC7 /* Workspace */,
+				85446D3F1D52377A0046AAC7 /* Workplace */,
 				85446D541D52377A0046AAC7 /* WorkspaceTests */,
 				85446D5F1D52377A0046AAC7 /* WorkspaceUITests */,
 				85446D3E1D52377A0046AAC7 /* Products */,
@@ -114,14 +116,14 @@
 		85446D3E1D52377A0046AAC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85446D3D1D52377A0046AAC7 /* Workspace.app */,
-				85446D511D52377A0046AAC7 /* WorkspaceTests.xctest */,
-				85446D5C1D52377A0046AAC7 /* WorkspaceUITests.xctest */,
+				85446D3D1D52377A0046AAC7 /* Workplace.app */,
+				85446D511D52377A0046AAC7 /* Workplace.xctest */,
+				85446D5C1D52377A0046AAC7 /* Workplace.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85446D3F1D52377A0046AAC7 /* Workspace */ = {
+		85446D3F1D52377A0046AAC7 /* Workplace */ = {
 			isa = PBXGroup;
 			children = (
 				85446D401D52377A0046AAC7 /* AppDelegate.swift */,
@@ -131,11 +133,12 @@
 				85F60A2B1D56457E00A76052 /* Gateway */,
 				85446D441D52377A0046AAC7 /* Main.storyboard */,
 				85446D471D52377A0046AAC7 /* Assets.xcassets */,
+				85D73F691D57507200C9B904 /* Default-568h@2x.png */,
 				85446D491D52377A0046AAC7 /* LaunchScreen.storyboard */,
 				85446D4C1D52377A0046AAC7 /* Info.plist */,
-				85446D6E1D5270600046AAC7 /* GoogleService-Info.plist */,
+				85116B991D574D5F004D1BDB /* GoogleService-Info.plist */,
 			);
-			path = Workspace;
+			path = Workplace;
 			sourceTree = "<group>";
 		};
 		85446D541D52377A0046AAC7 /* WorkspaceTests */ = {
@@ -213,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85446D3C1D52377A0046AAC7 /* Workspace */ = {
+		85446D3C1D52377A0046AAC7 /* Workplace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85446D651D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "Workspace" */;
+			buildConfigurationList = 85446D651D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "Workplace" */;
 			buildPhases = (
 				649DD2A8A9D8F85E6D3DB08E /* Check Pods Manifest.lock */,
 				85446D391D52377A0046AAC7 /* Sources */,
@@ -229,14 +232,14 @@
 			);
 			dependencies = (
 			);
-			name = Workspace;
+			name = Workplace;
 			productName = Workspace;
-			productReference = 85446D3D1D52377A0046AAC7 /* Workspace.app */;
+			productReference = 85446D3D1D52377A0046AAC7 /* Workplace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85446D501D52377A0046AAC7 /* WorkspaceTests */ = {
+		85446D501D52377A0046AAC7 /* WorkplaceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85446D681D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkspaceTests" */;
+			buildConfigurationList = 85446D681D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkplaceTests" */;
 			buildPhases = (
 				85446D4D1D52377A0046AAC7 /* Sources */,
 				85446D4E1D52377A0046AAC7 /* Frameworks */,
@@ -247,14 +250,14 @@
 			dependencies = (
 				85446D531D52377A0046AAC7 /* PBXTargetDependency */,
 			);
-			name = WorkspaceTests;
+			name = WorkplaceTests;
 			productName = WorkspaceTests;
-			productReference = 85446D511D52377A0046AAC7 /* WorkspaceTests.xctest */;
+			productReference = 85446D511D52377A0046AAC7 /* Workplace.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		85446D5B1D52377A0046AAC7 /* WorkspaceUITests */ = {
+		85446D5B1D52377A0046AAC7 /* WorkplaceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85446D6B1D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkspaceUITests" */;
+			buildConfigurationList = 85446D6B1D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkplaceUITests" */;
 			buildPhases = (
 				85446D581D52377A0046AAC7 /* Sources */,
 				85446D591D52377A0046AAC7 /* Frameworks */,
@@ -265,9 +268,9 @@
 			dependencies = (
 				85446D5E1D52377A0046AAC7 /* PBXTargetDependency */,
 			);
-			name = WorkspaceUITests;
+			name = WorkplaceUITests;
 			productName = WorkspaceUITests;
-			productReference = 85446D5C1D52377A0046AAC7 /* WorkspaceUITests.xctest */;
+			productReference = 85446D5C1D52377A0046AAC7 /* Workplace.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -296,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85446D381D52377A0046AAC7 /* Build configuration list for PBXProject "Workspace" */;
+			buildConfigurationList = 85446D381D52377A0046AAC7 /* Build configuration list for PBXProject "Workplace" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -309,9 +312,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85446D3C1D52377A0046AAC7 /* Workspace */,
-				85446D501D52377A0046AAC7 /* WorkspaceTests */,
-				85446D5B1D52377A0046AAC7 /* WorkspaceUITests */,
+				85446D3C1D52377A0046AAC7 /* Workplace */,
+				85446D501D52377A0046AAC7 /* WorkplaceTests */,
+				85446D5B1D52377A0046AAC7 /* WorkplaceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,10 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				85446D4B1D52377A0046AAC7 /* LaunchScreen.storyboard in Resources */,
-				85446D6F1D5270600046AAC7 /* GoogleService-Info.plist in Resources */,
 				85446D481D52377A0046AAC7 /* Assets.xcassets in Resources */,
+				85116B9A1D574D5F004D1BDB /* GoogleService-Info.plist in Resources */,
 				858C39A11D527D0C001A5835 /* ProgressHUD.bundle in Resources */,
 				85446D461D52377A0046AAC7 /* Main.storyboard in Resources */,
+				85D73F6A1D57507200C9B904 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,12 +448,12 @@
 /* Begin PBXTargetDependency section */
 		85446D531D52377A0046AAC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85446D3C1D52377A0046AAC7 /* Workspace */;
+			target = 85446D3C1D52377A0046AAC7 /* Workplace */;
 			targetProxy = 85446D521D52377A0046AAC7 /* PBXContainerItemProxy */;
 		};
 		85446D5E1D52377A0046AAC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85446D3C1D52377A0046AAC7 /* Workspace */;
+			target = 85446D3C1D52377A0046AAC7 /* Workplace */;
 			targetProxy = 85446D5D1D52377A0046AAC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -564,10 +568,10 @@
 			baseConfigurationReference = E103C9049E47E9F2EB0E003C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Workspace/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Workplace/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.Workspace;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.Workplace;
+				PRODUCT_NAME = Workplace;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Debug;
@@ -577,10 +581,10 @@
 			baseConfigurationReference = 64EDDF2BA497FE39F3AF77A8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Workspace/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Workplace/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.Workspace;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.Workplace;
+				PRODUCT_NAME = Workplace;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
@@ -592,8 +596,8 @@
 				INFOPLIST_FILE = WorkspaceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.WorkspaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workspace.app/Workspace";
+				PRODUCT_NAME = Workplace;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workplace.app/Workplace";
 			};
 			name = Debug;
 		};
@@ -604,8 +608,8 @@
 				INFOPLIST_FILE = WorkspaceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.WorkspaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workspace.app/Workspace";
+				PRODUCT_NAME = Workplace;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workplace.app/Workplace";
 			};
 			name = Release;
 		};
@@ -615,7 +619,7 @@
 				INFOPLIST_FILE = WorkspaceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.WorkspaceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Workplace;
 				TEST_TARGET_NAME = Workspace;
 			};
 			name = Debug;
@@ -626,7 +630,7 @@
 				INFOPLIST_FILE = WorkspaceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.elmunei.WorkspaceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Workplace;
 				TEST_TARGET_NAME = Workspace;
 			};
 			name = Release;
@@ -634,7 +638,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85446D381D52377A0046AAC7 /* Build configuration list for PBXProject "Workspace" */ = {
+		85446D381D52377A0046AAC7 /* Build configuration list for PBXProject "Workplace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85446D631D52377B0046AAC7 /* Debug */,
@@ -643,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85446D651D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "Workspace" */ = {
+		85446D651D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "Workplace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85446D661D52377B0046AAC7 /* Debug */,
@@ -652,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85446D681D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkspaceTests" */ = {
+		85446D681D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkplaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85446D691D52377B0046AAC7 /* Debug */,
@@ -661,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85446D6B1D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkspaceUITests" */ = {
+		85446D6B1D52377B0046AAC7 /* Build configuration list for PBXNativeTarget "WorkplaceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85446D6C1D52377B0046AAC7 /* Debug */,

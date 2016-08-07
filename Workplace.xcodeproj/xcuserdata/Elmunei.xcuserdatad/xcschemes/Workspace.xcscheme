@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "85446D3C1D52377A0046AAC7"
-               BuildableName = "Workspace.app"
-               BlueprintName = "Workspace"
-               ReferencedContainer = "container:Workspace.xcodeproj">
+               BuildableName = "Workplace.app"
+               BlueprintName = "Workplace"
+               ReferencedContainer = "container:Workplace.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "85446D501D52377A0046AAC7"
-               BuildableName = "WorkspaceTests.xctest"
-               BlueprintName = "WorkspaceTests"
-               ReferencedContainer = "container:Workspace.xcodeproj">
+               BuildableName = "Workplace.xctest"
+               BlueprintName = "WorkplaceTests"
+               ReferencedContainer = "container:Workplace.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "85446D5B1D52377A0046AAC7"
-               BuildableName = "WorkspaceUITests.xctest"
-               BlueprintName = "WorkspaceUITests"
-               ReferencedContainer = "container:Workspace.xcodeproj">
+               BuildableName = "Workplace.xctest"
+               BlueprintName = "WorkplaceUITests"
+               ReferencedContainer = "container:Workplace.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85446D3C1D52377A0046AAC7"
-            BuildableName = "Workspace.app"
-            BlueprintName = "Workspace"
-            ReferencedContainer = "container:Workspace.xcodeproj">
+            BuildableName = "Workplace.app"
+            BlueprintName = "Workplace"
+            ReferencedContainer = "container:Workplace.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85446D3C1D52377A0046AAC7"
-            BuildableName = "Workspace.app"
-            BlueprintName = "Workspace"
-            ReferencedContainer = "container:Workspace.xcodeproj">
+            BuildableName = "Workplace.app"
+            BlueprintName = "Workplace"
+            ReferencedContainer = "container:Workplace.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85446D3C1D52377A0046AAC7"
-            BuildableName = "Workspace.app"
-            BlueprintName = "Workspace"
-            ReferencedContainer = "container:Workspace.xcodeproj">
+            BuildableName = "Workplace.app"
+            BlueprintName = "Workplace"
+            ReferencedContainer = "container:Workplace.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
